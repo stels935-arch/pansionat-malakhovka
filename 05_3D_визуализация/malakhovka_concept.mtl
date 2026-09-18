@@ -1,0 +1,223 @@
+newmtl facade
+Ka 0.2 0.2 0.2
+Kd 0.90980 0.74118 0.34902
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl trim
+Ka 0.2 0.2 0.2
+Kd 0.96078 0.92941 0.85490
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl base
+Ka 0.2 0.2 0.2
+Kd 0.72549 0.68235 0.58824
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl roof
+Ka 0.2 0.2 0.2
+Kd 0.54118 0.25098 0.20784
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl roofDark
+Ka 0.2 0.2 0.2
+Kd 0.43137 0.20000 0.17647
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl glass
+Ka 0.2 0.2 0.2
+Kd 0.43137 0.58824 0.60784
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl glassLight
+Ka 0.2 0.2 0.2
+Kd 0.74902 0.81569 0.81176
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl frame
+Ka 0.2 0.2 0.2
+Kd 0.23922 0.31765 0.30196
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl grass
+Ka 0.2 0.2 0.2
+Kd 0.55294 0.61176 0.40000
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl path
+Ka 0.2 0.2 0.2
+Kd 0.87451 0.85098 0.74902
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl soil
+Ka 0.2 0.2 0.2
+Kd 0.35686 0.38039 0.26667
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl trunk
+Ka 0.2 0.2 0.2
+Kd 0.50588 0.38431 0.29020
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl leaves
+Ka 0.2 0.2 0.2
+Kd 0.33333 0.45098 0.31765
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl leavesLight
+Ka 0.2 0.2 0.2
+Kd 0.48235 0.56078 0.34510
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl leavesDark
+Ka 0.2 0.2 0.2
+Kd 0.23529 0.36863 0.27059
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl wood
+Ka 0.2 0.2 0.2
+Kd 0.58824 0.45098 0.32549
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl metal
+Ka 0.2 0.2 0.2
+Kd 0.32549 0.39608 0.35686
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl room
+Ka 0.2 0.2 0.2
+Kd 0.86667 0.80000 0.69020
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl corridor
+Ka 0.2 0.2 0.2
+Kd 0.77647 0.83922 0.77255
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl care
+Ka 0.2 0.2 0.2
+Kd 0.70980 0.79608 0.84314
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl social
+Ka 0.2 0.2 0.2
+Kd 0.90980 0.80000 0.62745
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl bed
+Ka 0.2 0.2 0.2
+Kd 0.96078 0.94510 0.87451
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl blanket
+Ka 0.2 0.2 0.2
+Kd 0.37255 0.55686 0.52549
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl pillow
+Ka 0.2 0.2 0.2
+Kd 0.98039 0.97255 0.93725
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl furniture
+Ka 0.2 0.2 0.2
+Kd 0.73333 0.58824 0.45098
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl wall
+Ka 0.2 0.2 0.2
+Kd 0.93725 0.89804 0.81176
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl isolation
+Ka 0.2 0.2 0.2
+Kd 0.84706 0.71765 0.69804
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2
+
+newmtl water
+Ka 0.2 0.2 0.2
+Kd 0.45098 0.60000 0.58824
+Ks 0.12 0.12 0.12
+Ns 30
+d 1
+illum 2

@@ -1,0 +1,223 @@
+{
+  "checked_at": "2026-09-17",
+  "address": "Московская область, Малаховка, ул. Чайковского, 1",
+  "cadastral": {
+    "land": "50:22:0030304:198",
+    "land_legacy_spelling": "50:22:0030304:0198",
+    "building": "50:22:0000000:6250"
+  },
+  "conclusions": {
+    "territorial_zone": "не подтверждена",
+    "allowed_vri_3_2_1": "не подтвержден на участке",
+    "allowed_vri_4_7": "не подтвержден на участке",
+    "heritage_status": "не подтвержден и не исключен",
+    "reconstruction_commissioning": "не подтвержден предоставленным комплектом"
+  },
+  "privacy": "Персональные данные правообладателей, подписи и платежные реквизиты не выведены и не переданы в публичные запросы.",
+  "sources": [
+    {
+      "id": "L01",
+      "title": "Предоставленная онлайн-выписка здания",
+      "type": "local_primary_copy",
+      "path": "[исходные документы проекта]",
+      "checked": "2026-09-17",
+      "reliability": "high_for_contents_only",
+      "status": "Локально извлечены только технические поля; не новая выписка реестра",
+      "supports": [
+        "50:22:0000000:6250",
+        "903.8 м²",
+        "нежилое, техникум, 2 этажа",
+        "поле реестра ОКН: Данные отсутствуют"
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Предоставленная онлайн-выписка земельного участка",
+      "type": "local_primary_copy",
+      "path": "[исходные документы проекта]",
+      "checked": "2026-09-17",
+      "reliability": "high_for_contents_only",
+      "status": "Локальное чтение технических полей",
+      "supports": [
+        "50:22:0030304:198; также :0198",
+        "3390 м², погрешность20.0",
+        "земли населенных пунктов",
+        "административные здания; амбулаторно-поликлиническое облуживание"
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Проверенные факты по АР и исходным материалам",
+      "type": "local_prior_research",
+      "path": "[исходные документы проекта]",
+      "checked": "2026-09-17",
+      "reliability": "medium",
+      "status": "Прочитан; АР не доказывает ввод реконструкции",
+      "supports": [
+        "Проектная общая площадь1843.1; подвал, два этажа, мансарда"
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Администрация Люберец: ПЗЗ и изменения",
+      "url": "https://xn--90aiqw4a4aq.xn--p1ai/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0/%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%B7%D0%B5%D0%BC%D0%BB%D0%B5%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%B7%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8",
+      "type": "official_municipal",
+      "checked": "2026-09-17",
+      "reliability": "high_for_publications_not_parcel_assignment",
+      "status": "Страница открыта, найдены актуальные публикации и изменения2026; зона участка не установлена"
+    },
+    {
+      "id": "L05",
+      "title": "Градостроительные регламенты — файл официального портала",
+      "url": "https://xn--80asg7a0b.xn--90aiqw4a4aq.xn--p1ai/userfiles/upload/gradostroitelnye_reglamenty_0d0a5a3da689/gradostroitelnye_reglamenty.pdf",
+      "type": "official_municipal_pdf",
+      "checked": "2026-09-17",
+      "reliability": "high_for_text_only",
+      "status": "71стр.; проверены коды3.2.1,3.4.1,4.7; применимость к нашему участку не подтверждена"
+    },
+    {
+      "id": "L06",
+      "title": "Карта градостроительного зонирования из опубликованного комплекта",
+      "url": "https://xn--80asg7a0b.xn--90aiqw4a4aq.xn--p1ai/userfiles/upload/karta_gradostroitelnogo_zonirovaniya_c82d397eaf53/karta_gradostroitelnogo_zonirovaniya.pdf",
+      "type": "official_municipal_map",
+      "checked": "2026-09-17",
+      "reliability": "unconfirmed_for_subject_parcel",
+      "status": "Ссылка PDF открыта; надежная кадастровая привязка не выполнена"
+    },
+    {
+      "id": "L07",
+      "title": "Карта ЗОУИТ ЕГРН из опубликованного комплекта",
+      "url": "https://xn--80asg7a0b.xn--90aiqw4a4aq.xn--p1ai/userfiles/upload/karta_gradostroitelnogo_zonirovaniya_zou_ad24011c2742/karta_gradostroitelnogo_zonirovaniya_zouit_egrn.pdf",
+      "type": "official_municipal_map",
+      "checked": "2026-09-17",
+      "reliability": "unconfirmed_for_subject_parcel",
+      "status": "Ссылка PDF открыта; ограничения нашего участка не установлены"
+    },
+    {
+      "id": "L08",
+      "title": "Сведения о границах территориальных зон",
+      "url": "https://xn--80asg7a0b.xn--90aiqw4a4aq.xn--p1ai/userfiles/upload/svedeniya_o_granicah_territorialnyh_zon_7767acfc23e3/svedeniya_o_granicah_territorialnyh_zon_v_sootvetstvii_s_p_6_1_st_30_gradostroitelnogo_kodeksa.pdf",
+      "type": "official_municipal_pdf",
+      "checked": "2026-09-17",
+      "reliability": "unconfirmed_for_subject_parcel",
+      "status": "4стр.; не использован для назначения зоны участку"
+    },
+    {
+      "id": "L09",
+      "title": "НСПД: официальная публичная карта",
+      "url": "https://nspd.gov.ru/map",
+      "type": "official_federal_map",
+      "checked": "2026-09-17",
+      "reliability": "not_checked_at_parcel_level",
+      "status": "Веб-открытие Internal Error; CUA-браузер не запустился из-за ошибки среды. Дополнительная попытка 17.09.2026 через Playwright / Microsoft Edge: браузер запустился, но карта не загрузилась из-за NET::ERR_CERT_AUTHORITY_INVALID; поиск кадастрового номера в интерфейсе не состоялся. Проверка сертификата не отключалась. Участок и зона не подтверждены."
+    },
+    {
+      "id": "L10",
+      "title": "Региональная геопортальная страница",
+      "url": "https://geo.mosreg.ru/",
+      "type": "regional_portal_attempt",
+      "checked": "2026-09-17",
+      "reliability": "not_verified",
+      "status": "Веб-инструмент не открыл страницу; сведения не использованы как доказательство"
+    },
+    {
+      "id": "L11",
+      "title": "Мособлархитектура: получение ГПЗУ",
+      "url": "https://mosoblarh.mosreg.ru/sobytiya/novosti-ministerstva/za-polgoda-mosoblarxitekturoi-vydano-35-tysiac-gradplanov-dlia-celei-proektirovaniia",
+      "type": "official_regional",
+      "checked": "2026-09-17",
+      "reliability": "high_for_service_route",
+      "status": "Публичная публикация об онлайн-выдаче ГПЗУ"
+    },
+    {
+      "id": "L12",
+      "title": "РПГУ МО: услуга ГПЗУ",
+      "url": "https://uslugi.mosreg.ru/services/6909",
+      "type": "official_regional_service",
+      "checked": "2026-09-17",
+      "reliability": "service_entry_only",
+      "status": "Страница открылась оболочкой; заявление не подавалось"
+    },
+    {
+      "id": "L13",
+      "title": "Классификатор Росреестра П/0412, редакция02.06.2026",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_371246/ce9537a598c41eedce29d39eb069ee6fdf7f09d4/",
+      "type": "primary_normative_text_on_legal_reference_site",
+      "checked": "2026-09-17",
+      "reliability": "high",
+      "status": "Прочитаны3.2,3.2.1,3.2.4,3.4.1,4.7; не подтверждает ВРИ участка"
+    },
+    {
+      "id": "L14",
+      "title": "295-ФЗ от31.07.2025 — официальное опубликование",
+      "url": "https://publication.pravo.gov.ru/document/0001202507310049",
+      "type": "official_federal_publication",
+      "checked": "2026-09-17",
+      "reliability": "high_for_act_identity",
+      "status": "Официальная карточка установлена; действующие нормы дополнительно проверены по тексту ст14.4 и письму Росреестра"
+    },
+    {
+      "id": "L15",
+      "title": "ЗК РФ ст14.4, действующая редакция01.09.2026",
+      "url": "https://pravo.ppt.ru/kodeks/zk/st-14.4",
+      "type": "primary_normative_text_on_legal_reference_site",
+      "checked": "2026-09-17",
+      "reliability": "high",
+      "status": "Прочитана полностью нормативная часть; выбор ВРИ, ЕГРН, ограничения арендатора и условного использования"
+    },
+    {
+      "id": "L16",
+      "title": "Письмо Росреестра15.04.2026 №14-4104-ЛЛ/26",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_533688/",
+      "type": "agency_explanation_on_legal_reference_site",
+      "checked": "2026-09-17",
+      "reliability": "high_for_agency_position",
+      "status": "Разъяснение не заменяет закон; проверен порядок ВРИ участка и отмененная процедура ВРИ ОКС"
+    },
+    {
+      "id": "L17",
+      "title": "ГрК РФ ст51 — разрешение на строительство/реконструкцию",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_51040/570afc6feff03328459242886307d6aebe1ccb6b/",
+      "type": "primary_normative_text_on_legal_reference_site",
+      "checked": "2026-09-17",
+      "reliability": "high",
+      "status": "Источник правового маршрута; исключение для данного объекта не установлено"
+    },
+    {
+      "id": "L18",
+      "title": "ГрК РФ ст55.24, редакция с01.09.2026",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_51040/8531126e5f632762e7d7a88d4f684fc1a153faef/",
+      "type": "primary_normative_text_on_legal_reference_site",
+      "checked": "2026-09-17",
+      "reliability": "high",
+      "status": "Прочитаны требования соответствия использованию и эксплуатации после ввода с законными исключениями"
+    },
+    {
+      "id": "L19",
+      "title": "ГУКН МО: объекты культурного наследия",
+      "url": "https://gukn.mosreg.ru/dokumenty/gosudarstvennaya-ohrana-obektov-kulturnogo-na/obekty-kulturnogo-naslediya-moskovskoy-oblast",
+      "type": "official_regional_registry_entry",
+      "checked": "2026-09-17",
+      "reliability": "unconfirmed_for_subject",
+      "status": "Страница не отдала читаемых списков; отсутствие ОКН не доказано"
+    },
+    {
+      "id": "L20",
+      "title": "ЕГРОКН Минкультуры",
+      "url": "https://okn.mkrf.ru/",
+      "type": "official_federal_registry",
+      "checked": "2026-09-17",
+      "reliability": "unconfirmed_for_subject",
+      "status": "Internal Error; статус здания не подтвержден и не исключен"
+    },
+    {
+      "id": "L21",
+      "title": "Минцифры МО: процедура ВРИ в границах территорий ОКН,12.05.2026",
+      "url": "https://mits.mosreg.ru/sobytiya/novosti-ministerstva/v-podmoskove-uslugu-dlia-sobstvennikov-zemel-v-zonax-kulturnogo-naslediia-pereveli-v-cifru",
+      "type": "official_regional",
+      "checked": "2026-09-17",
+      "reliability": "high_for_special_route_only",
+      "status": "Специальный порядок; нахождение нашего участка в территории ОКН не установлено"
+    }
+  ]
+}

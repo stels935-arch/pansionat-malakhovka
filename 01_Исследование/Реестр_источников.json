@@ -1,0 +1,282 @@
+{
+  "checked": "2026-09-16",
+  "note": "Публичные страницы. Тарифы операторов не подтверждены письменными КП. Нормы перепроверить перед проектированием и открытием.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Местный оператор Виктория Малаховская 46",
+      "url": "https://www.pansionatcdz.ru/kontakty/malahovka/",
+      "basis": "Тарифы 1150–2000, шапка1350; противоречие; рекламный минимум"
+    },
+    {
+      "id": "S02",
+      "title": "Виктория Малаховка Заречная",
+      "url": "https://www.pansionatcdz.ru/kontakty/pansionat-dlya-pozhilyh-v-malahovke/",
+      "basis": "От1350; номер дома отсутствует"
+    },
+    {
+      "id": "S03",
+      "title": "Senior Group прайс",
+      "url": "https://www.seniorgroup.ru/prices/",
+      "basis": "Малаховка Константинова42/42А; медпремиум"
+    },
+    {
+      "id": "S04",
+      "title": "Раменское Гражданская47",
+      "url": "https://ramenskoepansionat.ru/",
+      "basis": "1200–1500; сроки акции требуют проверки"
+    },
+    {
+      "id": "S05",
+      "title": "Забота Раменский",
+      "url": "https://www.pansion-zabota.ru/catalog/ramenskiy/",
+      "basis": "3200–4350 по размещению и уходу"
+    },
+    {
+      "id": "S06",
+      "title": "Забота Золотой возраст",
+      "url": "https://www.pansion-zabota.ru/catalog/rezidentsiya-dlya-pozhilykh-zolotoy-vozrast/",
+      "basis": "4000–7850"
+    },
+    {
+      "id": "S07",
+      "title": "Забота Новокосино",
+      "url": "https://www.pansion-zabota.ru/catalog/balashiha-pansionat-dlya-pozhilyh/",
+      "basis": "2600–4250"
+    },
+    {
+      "id": "S08",
+      "title": "Опека Алтуфьевский",
+      "url": "https://sgc-opeca.ru/msk/pansionaty/altufevskiy/",
+      "basis": "Лескова6Б; от5100"
+    },
+    {
+      "id": "S09",
+      "title": "Опека Щукинский2",
+      "url": "https://sgc-opeca.ru/msk/pansionaty/shchukinskiy-2/",
+      "basis": "Габричевского5к10; акция4900"
+    },
+    {
+      "id": "S10",
+      "title": "Опека Красногорский",
+      "url": "https://sgc-opeca.ru/msk/pansionaty/krasnogorskiy/",
+      "basis": "Ивановское1стр3; от5600"
+    },
+    {
+      "id": "S11",
+      "title": "Опека Цветы",
+      "url": "https://sgc-opeca.ru/msk/pansionaty/tsvety/",
+      "basis": "Покровское200; от5500"
+    },
+    {
+      "id": "S12",
+      "title": "Виктория Денежниково",
+      "url": "https://www.pansionatcdz.ru/kontakty/dom-prestarelyh-ramenskoe/",
+      "basis": "От1350 социальные места"
+    },
+    {
+      "id": "S13",
+      "title": "Дом Долголетие",
+      "url": "https://dolgoletiedom.ru/",
+      "basis": "Красная Заря62А; 750/900 без подтверждения актуальности"
+    },
+    {
+      "id": "S14",
+      "title": "Помощь близких Малаховка",
+      "url": "https://malakhovka.pansionat.help/o-nas/tseny/",
+      "basis": "Чайковского23; 1200/1400/1700, единица и пакет неясны"
+    },
+    {
+      "id": "S15",
+      "title": "Опека условия сентябрьской акции",
+      "url": "https://sgc-opeca.ru/msk/promotions/osennyaya-zabota-msk/",
+      "basis": "Ограничение новых заездов и срока льготной цены"
+    },
+    {
+      "id": "S16",
+      "title": "СФР жители старше80 лет",
+      "url": "https://sfr.gov.ru/branches/moscow/news/~2025/09/29/275739",
+      "basis": "29.09.2025 более656тысМоскваМО"
+    },
+    {
+      "id": "S17",
+      "title": "СФР индексация2026",
+      "url": "https://sfr.gov.ru/branches/moscow/news~2026/01/12/277996",
+      "basis": "12.01.2026 более4.7млн получателей страховых пенсий всех категорий"
+    },
+    {
+      "id": "S18",
+      "title": "Роспотребнадзор новые санитарные правила",
+      "url": "https://zpp.rospotrebnadzor.ru/news/federal/575103",
+      "basis": "Вступление новых правил01.09.2026"
+    },
+    {
+      "id": "S19",
+      "title": "СП2.1.4284-26 полный текст",
+      "url": "https://www.garant.ru/products/ipo/prime/doc/414229111/",
+      "basis": "Постановление02.06.2026№20; социальное обслуживание"
+    },
+    {
+      "id": "S20",
+      "title": "Росстандарт СП2.13130.2020",
+      "url": "https://protect.gost.ru/sp/details/90783c81-7eaa-4b90-b774-55ad27e6dfa1",
+      "basis": "Карточка действующего пожарного СП"
+    },
+    {
+      "id": "S21",
+      "title": "Росстандарт изменение№2 СП2",
+      "url": "https://protect.gost.ru/sp/changesdetails/fd8720c4-ae0b-496f-8796-eec45a151fbf",
+      "basis": "Изменение с01.01.2026"
+    },
+    {
+      "id": "S22",
+      "title": "СП2 консолидированный текст",
+      "url": "https://meganorm.ru/mega_doc/fire_update_01122025/pravila/0/prikaz_mchs_rossii_ot_12_03_2020_N_151_red_ot_06_11_2025_ob.html",
+      "basis": "6.7.19 огнестойкость домов престарелых"
+    },
+    {
+      "id": "S23",
+      "title": "СП145.13330.2020",
+      "url": "https://base.garant.ru/400535835/",
+      "basis": "Планировка и подъем между этажами"
+    },
+    {
+      "id": "S24",
+      "title": "СП145 таблицаБ4",
+      "url": "https://base.garant.ru/400535835/f7ee959fd36b5699076b35abf4f52c5c/",
+      "basis": "Площади спален по категориям жителей"
+    },
+    {
+      "id": "S25",
+      "title": "Классификатор ВРИ",
+      "url": "https://base.garant.ru/75062082/53f89421bbdaf741eb2d1ecc4ddb4c33/",
+      "basis": "3.2.1 дома социального обслуживания"
+    },
+    {
+      "id": "S26",
+      "title": "Минтруд закон442ФЗ",
+      "url": "https://mintrud.gov.ru/docs/laws/112",
+      "basis": "Реестр добровольный, условия компенсаций"
+    },
+    {
+      "id": "S27",
+      "title": "Росздравнадзор лицензирование",
+      "url": "https://www.roszdravnadzor.gov.ru/spec/medactivities/licensing",
+      "basis": "Лицензирование медицинской деятельности"
+    },
+    {
+      "id": "S28",
+      "title": "ПП725 перечень уведомлений",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_506214/596df7fbb35bfa54ff16a2caf87e9705f71b984c/",
+      "basis": "РазделXXII пункт53"
+    },
+    {
+      "id": "S29",
+      "title": "ФНС порог НДС июль2026",
+      "url": "https://www.nalog.gov.ru/rn46/news/activities_fts/16636927/",
+      "basis": "Закон228ФЗ;20млн2026–2029"
+    },
+    {
+      "id": "S30",
+      "title": "ФНС порог НДС август2026",
+      "url": "https://www.nalog.gov.ru/rn64/news/activities_fts/16640747/",
+      "basis": "Подтверждение20млн"
+    },
+    {
+      "id": "S31",
+      "title": "НКРФ статья149",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_28165/c8ebcedc9ddce9d959d6c520c3b0d602f71e8e12/",
+      "basis": "Условия освобождения услуг ухода и социальных услуг"
+    },
+    {
+      "id": "S32",
+      "title": "Минфин услуги пансионата",
+      "url": "https://www.garant.ru/products/ipo/prime/doc/71493326/",
+      "basis": "Письмо23.01.2017№03-07-07/2817; не автоматическая льгота"
+    },
+    {
+      "id": "S33",
+      "title": "ФНС МО УСН",
+      "url": "https://www.nalog.gov.ru/rn50/taxation/taxes/usn/",
+      "basis": "Региональная ставка при выполнении условий"
+    },
+    {
+      "id": "S34",
+      "title": "ФНС страховые взносы2026",
+      "url": "https://www.nalog.gov.ru/rn16/news/tax_doc_news/16602634/",
+      "basis": "Льгота МСП и условия ее применения"
+    },
+    {
+      "id": "S35",
+      "title": "HH зарплаты Малаховка",
+      "url": "https://lyubertsy.hh.ru/vacancies/specialist_po_kachestvu/smenniy_grafik",
+      "basis": "Сиделка70400gross, медсестра89100gross; динамическая выдача"
+    },
+    {
+      "id": "S36",
+      "title": "Senior Group описание графика",
+      "url": "https://dreamjob.ru/employers/148188/vakansii/127156013",
+      "basis": "Вторичная публикация вакансии"
+    },
+    {
+      "id": "S37",
+      "title": "Теплые беседы вакансии",
+      "url": "https://teplye-besedy.ru/about/vacancies/",
+      "basis": "Первичный работодатель, вахта; gross/netнеобозначено"
+    },
+    {
+      "id": "S38",
+      "title": "SM PENSION вакансии",
+      "url": "https://sm-pension.ru/o-kompanii/vakansii/",
+      "basis": "Работодатель; неоднозначный график и тариф управляющей"
+    },
+    {
+      "id": "S39",
+      "title": "MET ТАРУС",
+      "url": "https://www.met.ru/goods/19563/",
+      "basis": "Механическая кровать39900"
+    },
+    {
+      "id": "S40",
+      "title": "MET DELTA7",
+      "url": "https://www.met.ru/goods/18001/",
+      "basis": "Электрическая кровать55900"
+    },
+    {
+      "id": "S41",
+      "title": "MET2DENSITY",
+      "url": "https://www.met.ru/goods/18898/",
+      "basis": "Матрас24900"
+    },
+    {
+      "id": "S42",
+      "title": "METAIRT100",
+      "url": "https://www.met.ru/goods/19599/",
+      "basis": "Противопролежневая система16900"
+    },
+    {
+      "id": "S43",
+      "title": "METАТЛАНТБ",
+      "url": "https://www.met.ru/goods/18656/",
+      "basis": "Мобильный подъемник79900, не межэтажный лифт"
+    },
+    {
+      "id": "S44",
+      "title": "MET609WC",
+      "url": "https://www.met.ru/goods/21310/",
+      "basis": "Кресло-туалет6900"
+    },
+    {
+      "id": "S45",
+      "title": "Росстандарт перечень пожарных СП",
+      "url": "https://protect.gost.ru/technicalregulations3.aspx?RegNum=56",
+      "basis": "Актуальные СП3.13130.2026 и СП6.13130.2025"
+    },
+    {
+      "id": "S46",
+      "title": "СП1.13130.2020",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_351940/",
+      "basis": "Эвакуация, мобильность, зоны безопасности"
+    }
+  ]
+}

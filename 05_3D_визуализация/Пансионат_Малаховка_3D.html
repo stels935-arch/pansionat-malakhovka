@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Малаховка — 3D-концепция пансионата</title>
+<style>
+:root{--ink:#253e3b;--dim:#64766e;--line:#dce1d7;--paper:#f6f5ee;--accent:#a95740;--green:#557969}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 "Segoe UI",Arial,sans-serif}header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:21px 32px 18px;border-bottom:1px solid var(--line);background:#fffdf7}.eyebrow{font-size:10px;font-weight:700;letter-spacing:2.2px;text-transform:uppercase;color:var(--dim)}h1{font-size:26px;line-height:1.2;margin:4px 0 0;font-weight:550;letter-spacing:-.6px}.header-meta{text-align:right;font-size:12px;color:var(--dim)}.shell{display:grid;grid-template-columns:minmax(0,1fr) 310px;min-height:720px}.scene-area{min-width:0;position:relative;background:linear-gradient(#edf1e9,#faf8ef)}.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:7px;padding:18px 20px;position:relative;z-index:2}.toolbar .space{flex:1}button,select,.link-button{font:inherit;color:var(--ink);background:#fffdf7;border:1px solid #cdd6cb;border-radius:6px;min-height:36px;padding:7px 12px;cursor:pointer;text-decoration:none;line-height:1.35}button:hover,.link-button:hover{background:#e8eee2}button.active{color:white;background:var(--ink);border-color:var(--ink)}button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #bd7755;outline-offset:3px}.toolbar label{font-size:12px;color:var(--dim);margin-right:5px}.view-group{display:flex;gap:4px}#viewport{width:100%;height:610px;display:block;touch-action:none;outline:none}#viewport:focus-visible{outline:2px solid var(--green);outline-offset:-3px}.canvas-note{position:absolute;left:22px;bottom:26px;padding:10px 13px;background:#fffdf5e8;border-left:3px solid #8f624b;max-width:470px;font-size:12px;color:#536057}.canvas-note strong{color:var(--ink);font-weight:600}.corner{position:absolute;right:20px;bottom:26px;display:flex;gap:6px}.corner button{min-width:37px}.sidebar{padding:26px 24px;background:#fffdf7;border-left:1px solid var(--line)}.sidebar h2{font-size:17px;font-weight:600;margin:0 0 10px}.section{padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid var(--line)}.section:last-child{border:none;margin-bottom:0}.muted{color:var(--dim)}p{margin:8px 0;font-size:13px}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:18px 10px;margin-top:16px}.metrics b{display:block;font-size:23px;line-height:1.25;font-weight:500;color:var(--ink)}.metrics span{font-size:11px;color:var(--dim)}.state{font-size:12px;color:var(--accent);font-weight:600;letter-spacing:.5px;margin-bottom:8px}.toggle{display:flex;align-items:center;gap:9px;margin:11px 0;font-size:13px}.toggle input{accent-color:var(--green);width:17px;height:17px}.legend{display:flex;align-items:center;font-size:12px;gap:9px;margin:8px 0}.swatch{width:13px;height:13px;border:1px solid #b6b8ab;display:inline-block;border-radius:2px}.download{display:flex;flex-direction:column;gap:9px}.download .link-button{text-align:center;font-size:13px}.hint{font-size:11px;color:var(--dim);line-height:1.6}footer{padding:18px 32px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--dim)}.status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#719375;margin-right:6px}.badge{border:1px solid #bccbbd;border-radius:4px;padding:3px 8px;font-size:10px;text-transform:uppercase;letter-spacing:1px}.meter{margin-top:14px;height:4px;background:linear-gradient(90deg,#597e75 40%,#7f9a82 40%,#7f9a82 80%,#d2b078 80%);border-radius:2px}.program{display:flex;justify-content:space-between;gap:4px;font-size:11px;margin-top:7px;color:var(--dim)}@media(min-width:1600px){#viewport{height:730px}.shell{min-height:840px}}@media(max-width:950px){.shell{grid-template-columns:1fr}.sidebar{border-left:none;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:20px}.section{margin:0}.scene-area{min-height:570px}#viewport{height:500px}}@media(max-width:560px){header{padding:18px}.header-meta{display:none}h1{font-size:22px}.toolbar{padding:12px;gap:8px}.toolbar .space{display:none}.view-group{width:100%;display:grid;grid-template-columns:repeat(4,1fr)}.view-group button{font-size:12px;padding:8px 5px}#viewport{height:400px}.scene-area{min-height:530px}.canvas-note{left:12px;right:12px;bottom:15px;max-width:none;margin-right:0;font-size:11px}.corner{right:12px;bottom:100px}.sidebar{display:block;padding:22px}.section{margin-bottom:20px}footer{padding:15px;flex-direction:column;gap:8px}.metrics{grid-template-columns:repeat(2,1fr)}}
+</style></head><body><nav style="padding:10px 24px;background:#e7eee7;border-bottom:1px solid #cbd9ce"><a href="../index.html" style="color:#285a45;text-decoration:none;font:14px Arial">← Весь проект «Пансионат в Малаховке»</a></nav>
+<header><div><div class="eyebrow">РесурсПроект · Чайковского, 1</div><h1>Пансионат в Малаховке</h1></div><div class="header-meta"><span class="badge">Концепция, не рабочий проект</span><div style="margin-top:8px">16 сентября 2026 · версия 1</div></div></header>
+<div class="shell"><main class="scene-area"><div class="toolbar"><div class="view-group" aria-label="Просмотр этажей"><button class="active" data-floor="0" aria-pressed="true">Здание</button><button data-floor="1" aria-pressed="false">1 этаж</button><button data-floor="2" aria-pressed="false">2 этаж</button><button data-floor="3" aria-pressed="false">Мансарда</button></div><span class="space"></span><label for="camera">Ракурс</label><select id="camera" aria-label="Ракурс камеры"><option value="front">Вход и фасад</option><option value="court">Двор и сад</option><option value="top">Сверху</option></select><button id="reset">Сброс</button></div>
+<canvas id="viewport" tabindex="0" role="img" aria-label="Интерактивная трёхмерная концепция П-образного пансионата с жёлтыми фасадами, белыми деталями и красной кровлей. Перетаскивайте мышью для вращения, используйте колесо для масштаба. Стрелки поворачивают вид, плюс и минус меняют масштаб."></canvas>
+<div class="canvas-note"><strong id="viewTitle">Общий вид · три крыла и открытый двор</strong><br><span id="viewNote">Облик по АР 2024 и фотографиям. Благоустройство предложено условно.</span></div>
+<div class="corner"><button id="zoomOut" aria-label="Уменьшить">−</button><button id="zoomIn" aria-label="Увеличить">+</button></div></main>
+<aside class="sidebar"><div class="section"><div class="state" id="state">ОБЪЁМ И БЛАГОУСТРОЙСТВО</div><h2>Дом с защищённым двором</h2><p class="muted">П-образная композиция сохраняет три крыла здания. Внутренний сад, места отдыха и доступный вход показаны как идея адаптации.</p><div class="metrics"><div><b>33,59 × 25,49</b><span>м · основные оси АР</span></div><div><b>13,54</b><span>м · основной конёк</span></div><div><b>60 + 2</b><span>постоянных + изолятор*</span></div><div><b>3 390</b><span>м² · площадь участка</span></div></div><div class="meter"></div><div class="program"><span>1 этаж · 24</span><span>2 этаж · 24</span><span>мансарда · 12</span></div><p class="hint">* Условная программа. Две отдельные палаты изолятора не участвуют в выручке. Вместимость и размещение в мансарде требуют проектного подтверждения.</p></div>
+<div class="section"><h2>Отображение</h2><label class="toggle"><input type="checkbox" id="roof" checked>Показать кровлю</label><label class="toggle"><input type="checkbox" id="garden" checked>Сад и территория</label><label class="toggle"><input type="checkbox" id="labels" checked>Подписи</label><label class="toggle"><input type="checkbox" id="dimensions">Размеры по осям</label><div id="legend" hidden><div class="legend"><span class="swatch" style="background:#ddccb0"></span>Комнаты проживания</div><div class="legend"><span class="swatch" style="background:#c6d6c5"></span>Связи и общие зоны</div><div class="legend"><span class="swatch" style="background:#d8b7b2"></span>Палаты изолятора</div><div class="legend"><span class="swatch" style="background:#b5cbd7"></span>Служебная зона</div></div><p class="hint">Мышь — вращение · колесо — масштаб.<br>Правая кнопка — сдвиг. На клавиатуре: стрелки, + и −.</p></div>
+<div class="section"><div class="download"><button id="savePng">Сохранить текущий вид · PNG</button><a href="malakhovka_concept.obj" class="link-button" download>Модель для 3D-редактора · OBJ</a><a href="malakhovka_concept.mtl" class="link-button" download>Материалы модели · MTL</a></div><p class="hint">OBJ и MTL хранятся вместе. Масштаб: 1 единица = 1 м. Файл открывается без интернета.</p></div>
+</aside></div><footer><span><span class="status-dot"></span>Основание: АР 2024, фото объекта, бизнес-план от 16.09.2026.</span><span>Контур участка, стены, проезды, доступность и пожарные решения не согласованы.</span></footer><div id="status" aria-live="polite" style="position:absolute;left:-10000px"></div>
+<script>
+/* Малаховка — концептуальная геометрия. Метры, Y вверх. */
+const SCENE=(()=>{
+const faces=[], labels=[];
+const materials={facade:'#e8bd59',trim:'#f5edda',base:'#b9ae96',roof:'#8a4035',roofDark:'#6e332d',glass:'#6e969b',glassLight:'#bfd0cf',frame:'#3d514d',grass:'#8d9c66',path:'#dfd9bf',soil:'#5b6144',trunk:'#81624a',leaves:'#557351',leavesLight:'#7b8f58',leavesDark:'#3c5e45',wood:'#967353',metal:'#53655b',room:'#ddccb0',corridor:'#c6d6c5',care:'#b5cbd7',social:'#e8cca0',bed:'#f5f1df',blanket:'#5f8e86',pillow:'#faf8ef',furniture:'#bb9673',wall:'#efe5cf',isolation:'#d8b7b2',water:'#739996'};
+function poly(v,m='facade',floor=0,part='outside',name=''){faces.push({v,m,floor,part,name});}
+function box(x,y,z,w,h,d,m,floor=0,part='outside',name=''){
+const a=[x,y,z],b=[x+w,y,z],c=[x+w,y,z+d],d0=[x,y,z+d],e=[x,y+h,z],f=[x+w,y+h,z],g=[x+w,y+h,z+d],j=[x,y+h,z+d];
+poly([a,d0,c,b],m,floor,part,name);poly([e,f,g,j],m,floor,part,name);poly([a,b,f,e],m,floor,part,name);poly([b,c,g,f],m,floor,part,name);poly([c,d0,j,g],m,floor,part,name);poly([d0,a,e,j],m,floor,part,name);
+}
+function cylinder(x,y,z,r,h,m,n=8,floor=0,part='outside',name=''){
+const low=[],high=[];for(let i=0;i<n;i++){let a=i*2*Math.PI/n;low.push([x+Math.cos(a)*r,y,z+Math.sin(a)*r]);high.push([x+Math.cos(a)*r,y+h,z+Math.sin(a)*r]);}
+poly(high,m,floor,part,name);for(let i=0;i<n;i++){let k=(i+1)%n;poly([low[i],low[k],high[k],high[i]],m,floor,part,name);}
+}
+function dome(x,y,z,r,h,m,level=0){const bands=4,n=9;for(let b=0;b<bands;b++){let t0=b*Math.PI/bands,t1=(b+1)*Math.PI/bands;for(let i=0;i<n;i++){let a=i*2*Math.PI/n,c=(i+1)*2*Math.PI/n;poly([[x+r*Math.sin(t0)*Math.cos(a),y+h*Math.cos(t0),z+r*Math.sin(t0)*Math.sin(a)],[x+r*Math.sin(t0)*Math.cos(c),y+h*Math.cos(t0),z+r*Math.sin(t0)*Math.sin(c)],[x+r*Math.sin(t1)*Math.cos(c),y+h*Math.cos(t1),z+r*Math.sin(t1)*Math.sin(c)],[x+r*Math.sin(t1)*Math.cos(a),y+h*Math.cos(t1),z+r*Math.sin(t1)*Math.sin(a)]],m,0,'landscape','tree_crown');}}}
+function label(text,p,floor=0,part='label'){labels.push({text,p,floor,part});}
+const W=33.59,D=25.49,x0=-W/2,z0=-D/2,barZ=2.55,barD=D/2-barZ,wing=8.15;
+const volumes=[{x:x0,z:barZ,w:W,d:barD},{x:x0,z:z0,w:wing,d:barZ-z0},{x:W/2-wing,z:z0,w:wing,d:barZ-z0}];
+const floorY=[0,0.5,4.1,7.7],heights=[0,3.6,3.6,.65];
+// Условный прямоугольник участка 60 х 56,5 = 3390 м², не кадастровый контур.
+box(-30,-.5,-25,60,.35,56.5,'soil',0,'landscape','conditional_plot_3390m2');
+box(-30,-.15,-25,60,.1,56.5,'grass',0,'landscape','lawn');
+box(-21,-.02,-17,42,.06,35,'path',0,'landscape','perimeter_paving');
+box(-8.1,.045,-12.4,16.2,.025,13.8,'grass',0,'landscape','courtyard_lawn');
+box(-2,.08,-12.5,4,.04,15,'path',0,'landscape','courtyard_path');
+box(-21.2,.08,-15.5,2.1,.05,35,'path',0,'landscape','walk');
+box(19.1,.08,-15.5,2.1,.05,35,'path',0,'landscape','walk');
+box(-21,.08,18.4,42,.05,2.1,'path',0,'landscape','walk');
+box(-6,.08,20,12,.04,7,'path',0,'landscape','arrival');
+// Плиты, фасад и условные стены для послойного просмотра.
+for(let floor=1;floor<=3;floor++){
+ const y=floorY[floor],h=heights[floor];
+ for(const v of volumes){
+  box(v.x,y-.18,v.z,v.w,.18,v.d,'base',floor,'slab','floor_'+floor+'_slab');
+  box(v.x,y,v.z,v.w,h,v.d,'facade',floor,'shell','floor_'+floor+'_mass');
+  box(v.x,y,v.z,v.w,.58,.24,'facade',floor,'cut','cut_wall');box(v.x,y,v.z+v.d-.24,v.w,.58,.24,'facade',floor,'cut','cut_wall');
+  box(v.x,y,v.z,.24,.58,v.d,'facade',floor,'cut','cut_wall');box(v.x+v.w-.24,y,v.z,.24,.58,v.d,'facade',floor,'cut','cut_wall');
+ }
+}
+box(x0-.12,.12,z0-.12,W+.24,.38,D+.24,'base',0,'foundation','base');
+// Не заполнять двор основанием здания: в модели цоколь П-образный.
+faces.splice(faces.findIndex(f=>f.name==='base'),6);
+for(const v of volumes)box(v.x-.08,.1,v.z-.08,v.w+.16,.4,v.d+.16,'base',0,'outside','plinth');
+function frontWindow(x,z,y,floor,back=false){const zz=z+(back?-.055:.055),sg=back?-1:1;box(x-.72,y,zz,1.44,2.1,.1,'trim',floor,'detail','window_frame');box(x-.59,y+.14,zz+sg*.07,1.18,1.8,.06,'glass',floor,'detail','window_glass');box(x-.027,y+.13,zz+sg*.13,.054,1.84,.045,'frame',floor,'detail','window_mullion');box(x-.61,y+1.18,zz+sg*.13,1.22,.05,.045,'frame',floor,'detail','window_transom');box(x-.83,y-.12,zz-.07,1.66,.13,.26,'trim',floor,'detail','sill');}
+function sideWindow(x,z,y,floor,positive=true){const xx=x+(positive?.03:-.13);box(xx,y,z-.72,.1,2.1,1.44,'trim',floor,'detail','window_frame');box(xx+(positive?.1:-.06),y+.14,z-.59,.06,1.8,1.18,'glass',floor,'detail','window_glass');box(xx+(positive?.17:-.1),y+.13,z-.027,.04,1.84,.054,'frame',floor,'detail','window_mullion');box(xx-.06,y-.12,z-.82,.26,.13,1.64,'trim',floor,'detail','sill');}
+for(let f=1;f<=2;f++){
+ const y=floorY[f]+.6;
+ for(let x=-14.4;x<=14.4;x+=3.6){if(f===1&&Math.abs(x)<2)continue;frontWindow(x,D/2,y,f);}
+ for(let z=-10.7;z<=10.7;z+=3.6){sideWindow(x0,z,y,f,false);sideWindow(-x0,z,y,f,true);}
+ for(let z=-10.3;z<1;z+=3.7){sideWindow(x0+wing,z,y,f,true);sideWindow(-x0-wing,z,y,f,false);}
+ for(let x=-6.7;x<7;x+=3.35)frontWindow(x,barZ,y,f,true);
+ for(let x of [-14.5,-10.7,10.7,14.5])frontWindow(x,z0,y,f,true);
+ // Белые пояса на фасадах и вертикальные пилястры.
+ for(let x of [-16.3,-12.6,-9,-5.4,5.4,9,12.6,16.0])box(x,floorY[f],D/2+.12,.25,heights[f],.12,'trim',f,'detail','pilaster');
+ for(let xx of [x0-.18,W/2+.08]) for(let z of [-12.4,-8.8,-5.2,-1.6,2.0,5.6,9.2,12.2])box(xx,floorY[f],z,.1,heights[f],.25,'trim',f,'detail','side_pilaster');
+ for(const v of volumes){box(v.x-.12,floorY[f]+heights[f]-.15,v.z-.12,v.w+.24,.15,v.d+.24,'trim',f,'cornice','cornice');}
+}
+// Доступный вход, посадочная площадка и пологая связь с двором — концепция.
+box(-4.5,.15,D/2+.25,9,.35,4.1,'path',0,'outside','entrance_platform');
+box(-1.55,.5,D/2+.12,3.1,2.7,.14,'frame',1,'detail','entrance_door');box(-1.38,.65,D/2+.28,2.76,2.35,.08,'glass',1,'detail','entrance_glass');
+// Прямоугольный двухуровневый портик: четыре колонны и остеклённый верх.
+for(let x of [-4.15,-1.38,1.38,4.15]){box(x-.23,.5,D/2+3.65,.46,3.55,.46,'trim',1,'detail','portico_column');box(x-.36,.48,D/2+3.52,.72,.2,.72,'trim',1,'detail','column_base');box(x-.31,3.86,D/2+3.57,.62,.19,.62,'trim',1,'detail','column_capital');}
+box(-4.7,4.03,D/2+.1,9.4,.27,4.4,'trim',2,'detail','portico_entablature');
+box(-4.55,4.3,D/2+.16,9.1,3.05,4.17,'facade',2,'detail','portico_upper');
+for(let x of [-3,0,3])frontWindow(x,D/2+4.33,4.83,2);
+sideWindow(-4.55,D/2+2.45,4.83,2,false);sideWindow(4.55,D/2+2.45,4.83,2,true);
+box(-4.85,7.35,D/2-.05,9.7,.2,4.7,'trim',2,'detail','portico_cornice');
+poly([[-5.1,7.6,D/2-.15],[5.1,7.6,D/2-.15],[4.5,8.55,D/2+1.5],[-4.5,8.55,D/2+1.5]],'roof',2,'detail','portico_roof');
+poly([[-5.1,7.6,D/2+4.9],[-4.5,8.55,D/2+1.5],[4.5,8.55,D/2+1.5],[5.1,7.6,D/2+4.9]],'roofDark',2,'detail','portico_roof');
+poly([[-5.1,7.6,D/2-.15],[-4.5,8.55,D/2+1.5],[-5.1,7.6,D/2+4.9]],'roof',2,'detail','portico_roof');
+poly([[5.1,7.6,D/2-.15],[5.1,7.6,D/2+4.9],[4.5,8.55,D/2+1.5]],'roofDark',2,'detail','portico_roof');
+poly([[-14,.12,15],[-4.5,.5,15],[-4.5,.5,17.5],[-14,.12,17.5]],'path',0,'outside','accessible_approach_concept');
+for(let x=-14;x<=-4.5;x+=1.5){let yy=.12+(x+14)/9.5*.38;box(x,yy,17.5,.07,.88,.07,'metal',0,'outside','approach_rail');}
+// Кровля по трём крыльям; габарит по коньку 13,54 м.
+function gable(x,z,w,d,y,r,alongX,name){
+if(alongX){let mid=z+d/2;poly([[x,y,z],[x+w,y,z],[x+w,r,mid],[x,r,mid]],'roof',4,'roof',name);poly([[x,r,mid],[x+w,r,mid],[x+w,y,z+d],[x,y,z+d]],'roofDark',4,'roof',name);poly([[x,y,z],[x,r,mid],[x,y,z+d]],'facade',4,'roof',name);poly([[x+w,y,z+d],[x+w,r,mid],[x+w,y,z]],'facade',4,'roof',name);}
+else{let mid=x+w/2;poly([[x,y,z],[mid,r,z],[mid,r,z+d],[x,y,z+d]],'roof',4,'roof',name);poly([[mid,r,z],[x+w,y,z],[x+w,y,z+d],[mid,r,z+d]],'roofDark',4,'roof',name);poly([[x,y,z],[x+w,y,z],[mid,r,z]],'facade',4,'roof',name);}
+}
+gable(x0-.5,barZ-.4,W+1,barD+.95,8.42,13.54,true,'main_roof');
+gable(x0-.5,z0-.5,wing+1,barZ-z0+.9,8.42,12.9,false,'west_roof');
+gable(W/2-wing-.5,z0-.5,wing+1,barZ-z0+.9,8.42,12.9,false,'east_roof');
+for(let x of [-13,13]){box(x,11.25,7,1,2,1,'trim',4,'roof','chimney');box(x-.12,13.25,6.88,1.24,.17,1.24,'roofDark',4,'roof','chimney_cap');}
+// Условная программа этажей. Комнаты не являются обмерным планом.
+function bed(x,y,z,f,mat='blanket'){box(x,y+.05,z,1.02,.42,2.05,'furniture',f,'interior','bed_frame');box(x+.035,y+.47,z+.035,.95,.2,1.98,'bed',f,'interior','bed_mattress');box(x+.065,y+.68,z+.68,.89,.035,1.25,mat,f,'interior','blanket');box(x+.12,y+.685,z+.12,.79,.09,.42,'pillow',f,'interior','pillow');box(x,y+.4,z-.05,1.02,.65,.1,'furniture',f,'interior','headboard');}
+function room(x,z,w,d,f,type='room',beds=2){const y=floorY[f];box(x,y+.01,z,w,.045,d,type,f,'interior','room_zone');box(x,y+.055,z,.1,.62,d,'wall',f,'interior','schematic_partition');box(x,y+.055,z,w,.62,.1,'wall',f,'interior','schematic_partition');if(beds===2){bed(x+.42,y,z+.48,f);bed(x+w-1.45,y,z+.48,f);}else if(beds===1)bed(x+w/2-.5,y,z+.55,f);box(x+w-.75,y+.06,z+d-.95,.65,.8,.8,'furniture',f,'interior','cabinet');}
+for(let f=1;f<=3;f++){
+ for(const v of volumes)box(v.x+.3,floorY[f]+.012,v.z+.3,v.w-.6,.03,v.d-.6,'corridor',f,'interior','circulation');
+ for(let i=0;i<6;i++)room(-12+i*4,6,4,6.3,f);
+ if(f<=2)for(let i=0;i<3;i++){room(-16.45,-12.35+i*4.75,5.8,4.7,f);room(10.65,-12.35+i*4.75,5.8,4.7,f);}
+ else{room(-16.35,-12.25,7.1,8,3,'social',0);room(9.1,-12.25,7.1,8,3,'care',0);label('Досуг',[-12.6,8.9,-8.1],3);label('Персонал',[12.6,8.9,-8.1],3);}
+ label(f===3?'12 мест · условно':'24 места · условно',[0,floorY[f]+1.3,9],f);
+}
+room(-16.4,6.2,4.1,5.7,1,'isolation',1);room(12.3,6.2,4.1,5.7,1,'isolation',1);
+label('Изолятор 1',[-14.3,1.6,10],1);label('Изолятор 2',[14.3,1.6,10],1);
+// Двор: тень, скамьи и спокойный маршрут; без утверждения пожарных проездов.
+function bench(x,z,rot=false){if(!rot){box(x,.35,z,2,.14,.55,'wood',0,'landscape','bench');box(x,.5,z+.48,2,.75,.1,'wood',0,'landscape','bench');for(let a of [x+.2,x+1.7])box(a,.08,z+.08,.12,.3,.4,'metal',0,'landscape','bench_leg');}else{box(x,.35,z,.55,.14,2,'wood',0,'landscape','bench');box(x+.48,.5,z,.1,.75,2,'wood',0,'landscape','bench');}}
+for(let z of [-9,-3]){bench(-5.8,z);bench(4.5,z,true);}
+for(let x of [-17,-8,8,17])bench(x,21.7);
+for(let x of [-25.7,25.7])for(let z of [-20,-9,2,13,26]){cylinder(x,.0,z,.21,3.4,'trunk');dome(x,4.7,z,2.3,3.3,'leaves');dome(x-.8,4.6,z+.65,1.35,2.3,'leavesLight');}
+for(let x of [-5.5,5.5]){cylinder(x,.02,-7.8,.12,2.2,'trunk');dome(x,3.2,-7.8,1.5,1.7,'leavesLight');}
+for(let x of [-6,6]){box(x-1,.05,-1,2,.32,2,'trim',0,'landscape','raised_planter');box(x-.8,.38,-.8,1.6,.05,1.6,'soil',0,'landscape','planter_soil');for(let k=0;k<4;k++)dome(x-.5+k*.32,.65,-.25,.4,.4,k%2?'leaves':'leavesLight');}
+// Невысокое условное ограждение и въездной разрыв.
+for(let x=-29;x<=29;x+=2.9)for(let z of [-24,30.5]){if(z>0&&Math.abs(x)<7)continue;box(x,.05,z,.1,1.25,.1,'metal',0,'landscape','boundary_post');}
+for(let z=-24;z<=30;z+=3)for(let x of [-29,29])box(x,.05,z,.1,1.25,.1,'metal',0,'landscape','boundary_post');
+label('Сад и прогулки',[0,.15,-17.8],0);label('Доступный вход',[-9.2,.5,19.1],0);label('Чайковского, 1',[0,.15,28.6],0);
+return {faces,materials,labels,dimensions:{axesWidth:W,axesDepth:D,ridgeHeight:13.54,plotArea:3390},program:{permanentBeds:60,floorBeds:[24,24,12],isolationBeds:2},notes:['П-образный объём — концептуальная интерпретация АР 2024 и фотографий.','33,59 × 25,49 м — размеры по осям, наружные декоративные элементы выступают за оси.','Высота 13,54 м относится к основному коньку.','Участок 60 × 56,5 м условный: форма, ориентация, отступы и проезды не установлены.','Расстановка 60+2 коек не подтверждает разрешенную вместимость.']};
+})();
+if(typeof module!=='undefined')module.exports=SCENE;
+</script><script>
+'use strict';
+const canvas=document.getElementById('viewport'),ctx=canvas.getContext('2d');
+const controls={roof:document.getElementById('roof'),garden:document.getElementById('garden'),labels:document.getElementById('labels'),dimensions:document.getElementById('dimensions')};
+let floor=0,theta=-.57,elevation=.53,zoom=1,panX=0,panY=0,w=0,h=0,dpr=1,drag=null,drawQueued=false,lastStats={};
+const colorCache=new Map();
+function color(m,shade){const key=m+':'+Math.round(shade*100);if(colorCache.has(key))return colorCache.get(key);let c=SCENE.materials[m],v=parseInt(c.slice(1),16),a=[v>>16,(v>>8)&255,v&255].map(x=>Math.max(0,Math.min(255,Math.round(x*shade))));let s='rgb('+a.join(',')+')';colorCache.set(key,s);return s;}
+function project(p){const co=Math.cos(theta),si=Math.sin(theta),ce=Math.cos(elevation),se=Math.sin(elevation);let x=p[0]*co-p[2]*si,z=p[0]*si+p[2]*co,y=p[1]-3.5;let s=Math.min(w/79,h/(elevation>.8?78:59))*zoom;return {x:w/2+x*s+panX,y:h*.51-(y*ce-z*se)*s+panY,depth:z*ce+y*se};}
+function visible(f){if(f.part==='landscape'&&!controls.garden.checked)return false;if(f.part==='roof')return !floor&&controls.roof.checked;if(f.part==='interior')return floor===f.floor;if(f.part==='cut')return floor===f.floor;if(floor&&f.floor>floor)return false;if(floor&&f.floor===floor&&['shell','detail','cornice'].includes(f.part))return false;return true;}
+function queue(){if(drawQueued)return;drawQueued=true;requestAnimationFrame(()=>{drawQueued=false;draw();});}
+function draw(){ctx.clearRect(0,0,w,h);const grad=ctx.createLinearGradient(0,0,0,h);grad.addColorStop(0,'#edf1e9');grad.addColorStop(1,'#f7f5eb');ctx.fillStyle=grad;ctx.fillRect(0,0,w,h);
+ const polys=[];for(const f of SCENE.faces){if(!visible(f))continue;let v=f.v.map(project);if(v.every(p=>p.x<0)||v.every(p=>p.x>w)||v.every(p=>p.y<0)||v.every(p=>p.y>h))continue;let a=f.v[0],b=f.v[1],c=f.v[2],u=[b[0]-a[0],b[1]-a[1],b[2]-a[2]],vv=[c[0]-a[0],c[1]-a[1],c[2]-a[2]],n=[u[1]*vv[2]-u[2]*vv[1],u[2]*vv[0]-u[0]*vv[2],u[0]*vv[1]-u[1]*vv[0]],len=Math.hypot(...n)||1;let shade=.76+.23*Math.abs((n[0]*-.45+n[1]*.83+n[2]*.33)/len);if(f.m==='glass')shade=.9;polys.push({v,f,dep:v.reduce((a,p)=>a+p.depth,0)/v.length,shade});}
+ raster(polys);
+ if(controls.dimensions.checked)dimensions();
+ if(controls.labels.checked)for(const l of SCENE.labels){if(l.floor!==floor)continue;if(l.floor===0&&!controls.garden.checked)continue;tag(l.text,l.p);}
+ compass();lastStats={drawnFaces:polys.length,totalFaces:SCENE.faces.length,floor,theta,elevation,zoom,roof:controls.roof.checked,width:w,height:h};window.__sceneStats=lastStats;
+}
+
+const rasterCanvas=document.createElement('canvas'),rasterContext=rasterCanvas.getContext('2d');
+function raster(polys){const rw=Math.max(1,Math.round(w)),rh=Math.max(1,Math.round(h));rasterCanvas.width=rw;rasterCanvas.height=rh;const im=rasterContext.createImageData(rw,rh),pixels=im.data,zbuf=new Float32Array(rw*rh);zbuf.fill(-Infinity);
+for(let y=0;y<rh;y++){let t=y/Math.max(1,rh-1),r=Math.round(237+10*t),g=Math.round(241+4*t),b=Math.round(233+2*t);for(let x=0;x<rw;x++){let q=(y*rw+x)*4;pixels[q]=r;pixels[q+1]=g;pixels[q+2]=b;pixels[q+3]=255;}}
+for(const p of polys){let c=parseInt(SCENE.materials[p.f.m].slice(1),16),rr=Math.min(255,Math.round((c>>16)*p.shade)),gg=Math.min(255,Math.round(((c>>8)&255)*p.shade)),bb=Math.min(255,Math.round((c&255)*p.shade));
+for(let j=1;j<p.v.length-1;j++){let a=p.v[0],b=p.v[j],c=p.v[j+1],den=(b.y-c.y)*(a.x-c.x)+(c.x-b.x)*(a.y-c.y);if(Math.abs(den)<.00001)continue;const inv=1/den;let minX=Math.max(0,Math.floor(Math.min(a.x,b.x,c.x))),maxX=Math.min(rw-1,Math.ceil(Math.max(a.x,b.x,c.x))),minY=Math.max(0,Math.floor(Math.min(a.y,b.y,c.y))),maxY=Math.min(rh-1,Math.ceil(Math.max(a.y,b.y,c.y)));let ux=(b.y-c.y)*inv,uy=(c.x-b.x)*inv,vx=(c.y-a.y)*inv,vy=(a.x-c.x)*inv;let depX=ux*(a.depth-c.depth)+vx*(b.depth-c.depth);
+for(let y=minY;y<=maxY;y++){let u=((b.y-c.y)*(minX+.5-c.x)+(c.x-b.x)*(y+.5-c.y))*inv,v=((c.y-a.y)*(minX+.5-c.x)+(a.x-c.x)*(y+.5-c.y))*inv,dep=u*a.depth+v*b.depth+(1-u-v)*c.depth,idx=y*rw+minX;
+for(let x=minX;x<=maxX;x++,idx++,u+=ux,v+=vx,dep+=depX){if(u>=-.00001&&v>=-.00001&&u+v<=1.00001&&dep>zbuf[idx]){zbuf[idx]=dep;let q=idx*4;pixels[q]=rr;pixels[q+1]=gg;pixels[q+2]=bb;}}}
+}}
+rasterContext.putImageData(im,0,0);ctx.drawImage(rasterCanvas,0,0,w,h);
+}
+
+function tag(t,p){let v=project(p);ctx.font='500 12px Segoe UI,Arial';let width=ctx.measureText(t).width+16;if(v.x<width/2+3||v.x>w-width/2-3||v.y<20||v.y>h-35)return;ctx.fillStyle='#fffdf2eb';ctx.strokeStyle='#b7c2b3';ctx.lineWidth=.8;ctx.beginPath();ctx.roundRect(v.x-width/2,v.y-22,width,24,4);ctx.fill();ctx.stroke();ctx.fillStyle='#324d42';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(t,v.x,v.y-10);}
+function dimension(a,b,t){let p=project(a),q=project(b);ctx.strokeStyle='#465e54';ctx.lineWidth=1;ctx.setLineDash([3,3]);ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(q.x,q.y);ctx.stroke();ctx.setLineDash([]);for(const v of[p,q]){ctx.beginPath();ctx.arc(v.x,v.y,2.1,0,Math.PI*2);ctx.fillStyle='#465e54';ctx.fill();}tag(t,[(a[0]+b[0])/2,(a[1]+b[1])/2,(a[2]+b[2])/2]);}
+function dimensions(){dimension([-16.795,.12,23],[16.795,.12,23],'33,59 м · оси');dimension([23,.12,-12.745],[23,.12,12.745],'25,49 м · оси');dimension([-20,0,9],[-20,13.54,9],'13,54 м · конёк');}
+function compass(){let x=36,y=46;ctx.font='10px Segoe UI';ctx.fillStyle='#6b7d70';ctx.textAlign='left';ctx.fillText('МОДЕЛЬ • МЕТРЫ',20,23);let s=Math.min(w/79,h/(elevation>.8?78:59))*zoom;ctx.strokeStyle='#5a6e62';ctx.lineWidth=1.4;ctx.beginPath();ctx.moveTo(20,h-19);ctx.lineTo(20+5*s,h-19);ctx.moveTo(20,h-22);ctx.lineTo(20,h-16);ctx.moveTo(20+5*s,h-22);ctx.lineTo(20+5*s,h-16);ctx.stroke();ctx.fillText('5 м',25+5*s,h-15);}
+function resize(){const r=canvas.getBoundingClientRect();w=Math.max(1,r.width);h=Math.max(1,r.height);dpr=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);queue();}
+function setFloor(v){floor=v;document.querySelectorAll('[data-floor]').forEach(b=>{let active=+b.dataset.floor===v;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});controls.roof.disabled=!!v;document.getElementById('legend').hidden=!v;document.getElementById('state').textContent=v?'УСЛОВНАЯ ПРОГРАММА ЭТАЖА':'ОБЪЁМ И БЛАГОУСТРОЙСТВО';document.getElementById('viewTitle').textContent=v===0?'Общий вид · три крыла и открытый двор':v===3?'Мансарда · 12 постоянных мест, условно':'Этаж '+v+' · 24 постоянных места'+(v===1?' + 2 изоляционные койки':'');document.getElementById('viewNote').textContent=v?'Расстановка не подтверждает нормы, эвакуацию или допустимую вместимость.':'Облик по АР 2024 и фотографиям. Благоустройство предложено условно.';document.getElementById('status').textContent=document.getElementById('viewTitle').textContent;if(v)elevation=.94;queue();}
+function setView(key){if(key==='court'){theta=2.58;elevation=.58;}else if(key==='top'){theta=0;elevation=1.51;}else{theta=-.57;elevation=.53;}panX=panY=0;queue();}
+function changeZoom(factor){zoom=Math.max(.55,Math.min(2.8,zoom*factor));queue();}
+document.querySelectorAll('[data-floor]').forEach(b=>b.addEventListener('click',()=>setFloor(+b.dataset.floor)));
+Object.values(controls).forEach(c=>c.addEventListener('change',queue));document.getElementById('camera').addEventListener('change',e=>setView(e.target.value));
+document.getElementById('reset').onclick=()=>{zoom=1;panX=panY=0;controls.roof.checked=true;controls.garden.checked=true;controls.labels.checked=true;controls.dimensions.checked=false;document.getElementById('camera').value='front';setFloor(0);setView('front');};
+document.getElementById('zoomIn').onclick=()=>changeZoom(1.15);document.getElementById('zoomOut').onclick=()=>changeZoom(1/1.15);
+canvas.addEventListener('contextmenu',e=>e.preventDefault());canvas.addEventListener('pointerdown',e=>{drag={x:e.clientX,y:e.clientY,pan:e.button===2||e.shiftKey};canvas.setPointerCapture(e.pointerId);});
+canvas.addEventListener('pointermove',e=>{if(!drag)return;let dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(drag.pan){panX+=dx;panY+=dy;}else{theta+=dx*.007;elevation=Math.max(.14,Math.min(1.53,elevation+dy*.006));}drag.x=e.clientX;drag.y=e.clientY;queue();});canvas.addEventListener('pointerup',()=>drag=null);canvas.addEventListener('pointercancel',()=>drag=null);canvas.addEventListener('wheel',e=>{e.preventDefault();changeZoom(Math.exp(-e.deltaY*.001));},{passive:false});
+canvas.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','=','-'].includes(e.key))e.preventDefault();if(e.key==='ArrowLeft')theta-=.1;if(e.key==='ArrowRight')theta+=.1;if(e.key==='ArrowUp')elevation=Math.min(1.53,elevation+.07);if(e.key==='ArrowDown')elevation=Math.max(.14,elevation-.07);if(e.key==='+'||e.key==='=')changeZoom(1.1);if(e.key==='-')changeZoom(1/1.1);queue();});
+document.getElementById('savePng').onclick=()=>{draw();const c=document.createElement('canvas');c.width=canvas.width;c.height=canvas.height+100*dpr;const x=c.getContext('2d');x.fillStyle='#fffdf7';x.fillRect(0,0,c.width,c.height);x.drawImage(canvas,0,70*dpr);x.scale(dpr,dpr);x.fillStyle='#253e3b';x.font='500 20px Segoe UI';x.fillText('Пансионат в Малаховке · Чайковского, 1',22,30);x.font='12px Segoe UI';x.fillText('Эскизная концепция · '+document.getElementById('viewTitle').textContent,22,52);x.fillText('Планировка и вместимость не подтверждены проектировщиком. 16.09.2026',22,h+91);const a=document.createElement('a');a.download='malakhovka-view-'+floor+'.png';a.href=c.toDataURL('image/png');a.click();};
+new ResizeObserver(resize).observe(canvas);resize();window.__setFloor=setFloor;window.__setView=setView;window.__draw=draw;
+</script></body></html>

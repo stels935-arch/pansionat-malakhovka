@@ -1,0 +1,215 @@
+{
+  "title": "Источники проверки назначения здания в Малаховке",
+  "checked_at": "2026-09-17",
+  "scope": "Пожарные, санитарные требования, доступность, медицинское лицензирование и классификация хостела. Без ПЗЗ, кадастровой проверки и финансов.",
+  "method": "Свежий веб-поиск по официальным источникам; консолидированные нормативные тексты сверены в правовых системах. Тип источника и ограничения доступа указаны отдельно.",
+  "sources": [
+    {
+      "id": "F01",
+      "title": "Федеральный закон № 123-ФЗ, статья 32; хостел Ф1.2",
+      "primary_url": "https://02.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/4074782",
+      "consolidated_text_url": null,
+      "verification": "Официальное разъяснение МЧС прочитано; статья использована только для отнесения хостела к Ф1.2, без переноса старых частных ограничений на отдельно стоящее здание.",
+      "clauses": "Ф1.1 — специализированный дом престарелых; Ф1.2 — гостиница/хостел",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "F02",
+      "title": "СП 2.13130.2020, редакция с изменением № 2",
+      "primary_url": "https://protect.gost.ru/sp/details/90783c81-7eaa-4b90-b774-55ad27e6dfa1",
+      "consolidated_text_url": "https://legalacts.ru/doc/prikaz-mchs-rossii-ot-12032020-n-151-ob-utverzhdenii/",
+      "verification": "Официальный статус и актуальный текст проверены.",
+      "clauses": "1.2; 6.7.9; 6.7.15; 6.7.19; 6.7.25",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "F03",
+      "title": "Изменение № 2 к СП 2.13130.2020, приказ МЧС 06.11.2025 № 999",
+      "primary_url": "https://protect.gost.ru/sp/changesdetails/fd8720c4-ae0b-496f-8796-eec45a151fbf",
+      "consolidated_text_url": null,
+      "verification": "Официальная карточка прочитана; действует с 01.01.2026.",
+      "clauses": "Актуальность редакции",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "F04",
+      "title": "СП 1.13130.2020 с действующими изменениями",
+      "primary_url": "https://protect.gost.ru/TrList/84",
+      "consolidated_text_url": "https://legalacts.ru/doc/prikaz-mchs-rossii-ot-19032020-n-194-ob-utverzhdenii/",
+      "verification": "Статус проверен по официальному перечню; пункты по нормативному тексту.",
+      "clauses": "4.2.9; 4.2.14; 4.2.16; 5.3.10–5.3.12; раздел 9",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "F05",
+      "title": "СП 1.13130.2020, раздел 5.3",
+      "primary_url": "https://protect.gost.ru/TrList/84",
+      "consolidated_text_url": "https://www.consultant.ru/document/cons_doc_LAW_351940/185e4b05b50f70ae14b0b3a784b51348336e767c/",
+      "verification": "Текст проверен; ограничение лестниц второго типа действительно в актуальной редакции.",
+      "clauses": "5.3.12",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "F06",
+      "title": "Новые СП 3.13130.2026 и СП 6.13130.2025",
+      "primary_url": "https://protect.gost.ru/TrList/84",
+      "consolidated_text_url": null,
+      "verification": "Официальный перечень прочитан; даты ввода 01.06.2026 и 29.06.2026 соответственно.",
+      "clauses": "Актуальность систем оповещения и электроснабжения пожарных систем",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "F07",
+      "title": "Правила противопожарного режима, ПП РФ 16.09.2020 № 1479",
+      "primary_url": "https://government.ru/docs/all/130094/",
+      "consolidated_text_url": null,
+      "verification": "Реквизиты и действующий срок проверены; для запуска в 2027 году необходима отдельная актуализация.",
+      "clauses": "Пожарный режим и ночное пребывание; срок до 31.12.2026 включительно",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "F08",
+      "title": "123-ФЗ статья 83 часть 7: дублирование пожарного сигнала Ф1.1",
+      "primary_url": "https://02.mchs.gov.ru/deyatelnost/rabota-s-obrashcheniyami-grazhdan/chasto-zadavaemye-voprosy2",
+      "consolidated_text_url": null,
+      "verification": "Официальное разъяснение МЧС прочитано.",
+      "clauses": "Дублирование сигнала в подразделение пожарной охраны",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "S01",
+      "title": "Постановление Главного государственного санитарного врача РФ 02.06.2026 № 20, СП 2.1.4284-26",
+      "primary_url": "https://publication.pravo.gov.ru/document/0001202606020088",
+      "consolidated_text_url": "https://www.garant.ru/products/ipo/prime/doc/414229111/",
+      "verification": "Официальная ссылка установлена, открытие портала было нестабильно; полный текст проверен в воспроизведении ГАРАНТ, вступление дополнительно подтверждено Роспотребнадзором.",
+      "clauses": "Постановление пп.3–4; СП пп.75,77,79–83,110–112,114,117,125,127; действует 01.09.2026–01.09.2032",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "S02",
+      "title": "Роспотребнадзор о новых санитарных правилах с 01.09.2026",
+      "primary_url": "https://zpp.rospotrebnadzor.ru/news/federal/575103",
+      "consolidated_text_url": null,
+      "verification": "Официальное сообщение проверено.",
+      "clauses": "Замена СП 2.1.3678-20 новым СП 2.1.4284-26",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "S03",
+      "title": "Новые санитарные правила, включая СанПиН 2.3/2.4.4282-26",
+      "primary_url": "https://26.rospotrebnadzor.ru/press-center/pr/14072/",
+      "consolidated_text_url": null,
+      "verification": "Официальный материал/индексированный текст проверен; возможна нестабильность открытия сайта.",
+      "clauses": "Питание: новая редакция с 01.09.2026",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "A01",
+      "title": "СП 145.13330.2020 — дома-интернаты",
+      "primary_url": "https://protect.gost.ru/sp/details/86e8fa0d-2387-4a1a-9a69-df3356b19c7f",
+      "consolidated_text_url": "https://base.garant.ru/400535835/f7ee959fd36b5699076b35abf4f52c5c/",
+      "verification": "Официальный статус и таблица нормативного текста проверены.",
+      "clauses": "Таблица Б.4: площади по категориям мобильности, отсутствие одной универсальной нормы на любого жителя",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "A02",
+      "title": "СП 145.13330.2020, изменение № 1",
+      "primary_url": "https://protect.gost.ru/sp/changesdetails/d112972e-734a-4ea3-817f-d018de4928a5",
+      "consolidated_text_url": null,
+      "verification": "Официальная карточка проверена.",
+      "clauses": "Ввод изменения 19.01.2024",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "A03",
+      "title": "СП 257.1325800.2020 — здания гостиниц",
+      "primary_url": "https://protect.gost.ru/sp/details/40bbe9d6-7fa7-4a7b-b1a6-a539ce75cc3e",
+      "consolidated_text_url": "https://base.garant.ru/400535863/",
+      "verification": "Официальный статус и пункты нормативного текста проверены.",
+      "clauses": "5.1; 6.1.10; 6.1.12; 6.1.14; 6.3.5",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "A04",
+      "title": "СП 257.1325800.2020, изменение № 1",
+      "primary_url": "https://protect.gost.ru/sp/changesdetails/9f999048-1a72-4490-a633-0f3c311b1c86",
+      "consolidated_text_url": null,
+      "verification": "Официальная карточка проверена.",
+      "clauses": "Ввод изменения 29.01.2024",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "H01",
+      "title": "ПП РФ 27.12.2024 № 1951, Положение о классификации средств размещения",
+      "primary_url": "https://government.ru/docs/all/157184/",
+      "consolidated_text_url": "https://www.consultant.ru/document/cons_doc_LAW_495340/9e91d0803bbc61b349686e512c59fa3a5d1e0e8c/",
+      "verification": "Официальная страница найдена, прямое открытие нестабильно; актуальный нормативный текст прочитан, редакция 27.11.2025.",
+      "clauses": "П.5: хостел относится к гостиницам; действует 01.01.2025–01.01.2031",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "H02",
+      "title": "ПП РФ № 1951, приложение № 1: требования к типам",
+      "primary_url": "https://publication.pravo.gov.ru/document/0001202412310014",
+      "consolidated_text_url": "https://www.consultant.ru/document/cons_doc_LAW_495340/778e994ea8efae58bc3b5d9aa2a4851005d5dced/",
+      "verification": "Полный текст приложения проверен; ссылка официальной публикации установлена.",
+      "clauses": "8.1–8.3; 9; 18–19",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "H03",
+      "title": "ПП РФ 27.12.2024 № 1952, Правила классификации",
+      "primary_url": "https://government.ru/docs/all/157162/",
+      "consolidated_text_url": "https://www.consultant.ru/document/cons_doc_LAW_495352/d51abc964530e89ec317baafc19dd5f5ad564980/",
+      "verification": "Официальная страница найдена, прямое открытие нестабильно; структура и нормативный текст проверены.",
+      "clauses": "Раздел II, самооценка типа; действует 01.01.2025–01.01.2031",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "H04",
+      "title": "Федеральный закон № 132-ФЗ, статья 5.1",
+      "primary_url": "https://tourism.fsa.gov.ru/ru/main",
+      "consolidated_text_url": "https://www.consultant.ru/document/cons_doc_LAW_12462/c8d52d0ebc3b4bdbd8b861df8781c399ba05e233/",
+      "verification": "Проверена статья в актуальной редакции с изменениями 2026; primary_url — официальный реестр, не публикация закона. Индивидуальный объект в реестре не проверялся.",
+      "clauses": "Обязательная запись, запрет услуг без включения, сведения в рекламе; исключение для организаций социального обслуживания",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "H05",
+      "title": "ПП РФ 27.11.2025 № 1912: правила оказания гостиничных услуг",
+      "primary_url": "https://government.ru/docs/all/162231/",
+      "consolidated_text_url": "https://www.consultant.ru/document/cons_doc_LAW_520177/92d969e26a4326c5d02fa79b8f9cf4994ee5633b/",
+      "verification": "Официальная страница найдена, прямое открытие нестабильно; актуальный нормативный текст проверен.",
+      "clauses": "Основные положения с 01.03.2026; срок до 01.03.2032",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "O01",
+      "title": "ПП РФ 27.05.2025 № 725: уведомления о начале деятельности",
+      "primary_url": "https://26.rospotrebnadzor.ru/press-center/pr/12976/",
+      "consolidated_text_url": "https://www.consultant.ru/document/cons_doc_LAW_506214/596df7fbb35bfa54ff16a2caf87e9705f71b984c/",
+      "verification": "Официальное разъяснение найдено и проверено ранее в ходе текущего исследования; повторное открытие сайта дало техническую ошибку. Социальный раздел перечня открыт и прочитан.",
+      "clauses": "Приложение №1, XXII, п.53, ОКВЭД87/88; гостиницы исключены с 01.09.2025",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "O02",
+      "title": "Лицензирование медицинской деятельности: №99-ФЗ, ПП РФ №852, приказ №866н",
+      "primary_url": "https://www.roszdravnadzor.gov.ru/spec/medactivities/licensing",
+      "consolidated_text_url": null,
+      "verification": "Официальный раздел прочитан; актуальные нормативные документы перечислены Росздравнадзором.",
+      "clauses": "Отличие социальных услуг от медицинских работ и необходимость лицензии",
+      "accessed_at": "2026-09-17"
+    },
+    {
+      "id": "O03",
+      "title": "ПП РФ 01.06.2021 №852, редакция 08.05.2025",
+      "primary_url": "https://roszdravnadzor.gov.ru/i/upload/images/2025/5/28/1748420427.00691-1-684926.pdf",
+      "consolidated_text_url": null,
+      "verification": "Официально размещенный текст проверен.",
+      "clauses": "Положение о лицензировании действует до 01.09.2027",
+      "accessed_at": "2026-09-17"
+    }
+  ]
+}
